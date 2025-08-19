@@ -18,15 +18,31 @@ A simple and reliable tool to install, update, and uninstall the Cursor AI IDE o
 - libfuse2 (will be installed automatically if missing)
 - sudo privileges for system-wide installation
 
-## Installation
+## Quick Use
 
-### Quick Install
+Run any command directly without cloning the repository:
 
+### Install Cursor
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ngurfinkel/linux-cursor-installer/main/install.sh | bash -s install
 ```
 
-### Manual Installation
+### Update Cursor
+```bash
+curl -fsSL https://raw.githubusercontent.com/ngurfinkel/linux-cursor-installer/main/install.sh | bash -s update
+```
+
+### Uninstall Cursor
+```bash
+curl -fsSL https://raw.githubusercontent.com/ngurfinkel/linux-cursor-installer/main/install.sh | bash -s uninstall
+```
+
+### Show Help
+```bash
+curl -fsSL https://raw.githubusercontent.com/ngurfinkel/linux-cursor-installer/main/install.sh | bash -s help
+```
+
+## Manual Installation
 
 1. Clone this repository:
 ```bash
@@ -39,37 +55,12 @@ cd linux-cursor-installer
 ./install.sh install
 ```
 
-## Usage
-
-The installer supports several commands:
-
-```bash
-./install.sh [command]
-```
-
-### Available Commands
+## Available Commands
 
 - `install` - Install Cursor AI IDE
 - `uninstall` - Remove Cursor AI IDE (preserves user data)
 - `update` - Update to the latest version
 - `help` - Show usage information
-
-### Examples
-
-Install Cursor:
-```bash
-./install.sh install
-```
-
-Update to latest version:
-```bash
-./install.sh update
-```
-
-Remove Cursor:
-```bash
-./install.sh uninstall
-```
 
 ## What Gets Installed
 
