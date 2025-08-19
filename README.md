@@ -23,14 +23,14 @@ A simple and reliable tool to install, update, and uninstall the Cursor AI IDE o
 ### Quick Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/linux-cursor-installer/main/install.sh | bash -s install
+curl -fsSL https://raw.githubusercontent.com/ngurfinkel/linux-cursor-installer/main/install.sh | bash -s install
 ```
 
 ### Manual Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/linux-cursor-installer.git
+git clone https://github.com/ngurfinkel/linux-cursor-installer.git
 cd linux-cursor-installer
 ```
 
